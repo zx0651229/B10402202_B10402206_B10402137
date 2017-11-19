@@ -13,4 +13,11 @@ namespace WindowsFormsApplication1
             return 0;
         }
     }
+    class Class2
+    {
+        public int GetNumber()
+        {
+            return 5;
+        }
+    }
 }

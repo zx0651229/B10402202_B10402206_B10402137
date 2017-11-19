@@ -22,5 +22,11 @@ namespace WindowsFormsApplication1
             Class1 g = new Class1();
             label1.Text = g.GetNumber().ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Class2 g = new Class2();
+            label2.Text = g.GetNumber().ToString();
+        }
     }
 }
